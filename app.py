@@ -2,7 +2,7 @@ import streamlit as st
 import joblib 
 
 #load the joblib model 
-model_nb = joblib.load('Twitter Airline Sentiment')
+model_nb = joblib.load('Tweets.csv')
 
 #user input 
 st.title("TWITTER AIRLINE SENTIMENT CLASSIFIER")
